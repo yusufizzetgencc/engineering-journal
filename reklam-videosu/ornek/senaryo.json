@@ -1,0 +1,51 @@
+{
+  "output": "cikti/luma_serum_reklam.mp4",
+  "fps": 30,
+  "brand": {
+    "name": "LUMA",
+    "primary": "#FFC857",
+    "text": "#FFFFFF",
+    "dark": "#1A1410"
+  },
+  "music": { "file": "malzeme/muzik_120bpm.wav", "bpm": 120, "volume": 1.0 },
+  "grade": { "contrast": 1.06, "saturation": 1.12, "vignette": true, "sharpen": true },
+  "fill": "crop",
+  "zoom_amount": 0.08,
+  "progress_bar": false,
+  "sfx": true,
+  "clips": [
+    {
+      "file": "malzeme/01_hero_yatay.mp4", "start": 0.3, "beats": 4, "zoom": "in", "zoom_amount": 0.14,
+      "text": "Cildin *yorgun* mu\ngörünüyor?", "text_style": "Hook"
+    },
+    {
+      "file": "malzeme/03_damla_dikey.mp4", "start": 1.2, "beats": 4, "zoom": "in", "transition": "flash",
+      "text": "*%15 C Vitamini*\nile anında ışıltı", "text_y": 0.30
+    },
+    {
+      "file": "malzeme/02_etiket_yakin.mp4", "start": 0.5, "beats": 4, "speed": 0.8, "zoom": "out", "focus_x": 0.5,
+      "transition": "whip", "text": "Hafif doku,\n*yapışkanlık yok*", "text_y": 0.56
+    },
+    {
+      "file": "malzeme/04_c_vitamini.mp4", "start": 0.0, "beats": 6, "zoom": "in", "focus_x": 0.5,
+      "transition": "zoom", "text": "*14 günde* daha\naydınlık bir ten", "text_y": 0.22,
+      "badge": "Dermatolog onaylı", "badge_y": 0.61
+    },
+    {
+      "file": "malzeme/05_podyum.mp4", "start": 0.0, "beats": 4, "zoom": "in", "transition": "whip_up",
+      "text": "Sınırlı stok:\n*%30 indirim*", "text_y": 0.25
+    }
+  ],
+  "end_card": {
+    "beats": 7,
+    "transition": "flash",
+    "background": "blur_last",
+    "image": "malzeme/urun.png",
+    "image_height": 430,
+    "title": "LUMA",
+    "subtitle": "Vitamin C Serum · 30 ml",
+    "old_price": "₺449",
+    "price": "₺314",
+    "cta": "HEMEN SİPARİŞ VER →"
+  }
+}
